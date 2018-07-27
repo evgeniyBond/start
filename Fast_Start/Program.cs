@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Fast_Start
+namespace Start
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Fast_Start
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartData());
+            Application.Run(new Form1());
         }
     }
 }
